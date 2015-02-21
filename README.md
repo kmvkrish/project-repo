@@ -3,7 +3,7 @@ A small application that stores and displays projects done by a user similar to 
 
 This application will store all the projects uploaded by a user into the disk of server.
 
-When browser for the folder of project like "project.php?url=<USERNAME OF UPLOADER>/<PROJECT NAME>" that will show a basic directory tree
+When browser for the folder of project like "project.php?url=master/project_name" that will show a basic directory tree
     like we see in GitHub.
     
     
