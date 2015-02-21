@@ -1,0 +1,48 @@
+.msg_body
+{
+min-height:70px;
+margin-bottom:10px;
+border-bottom:solid 1px #fafafa;
+}
+.msg-form-content {
+box-shadow: 10px 10px 10px #CCC;
+border: 1px solid #BFBFBF;
+background: #fff;
+color: #6B6B6B;
+border-radius: 3px;
+width:600px;
+}
+.msg-form-header {
+background: #e8ebed;
+padding: 6px;
+font-family: Tahoma, Arial, Verdana, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #333;
+border-bottom: 1px solid #fafafa;
+}
+
+.msg-loader {
+float: right;
+}
+
+.msg-form-inner {
+padding: 10px;
+border-bottom: 1px solid #EEE;
+}
+.msg-btn {
+	text-align:right;
+padding: 6px 10px 7px 0;
+height:25px;
+}
+.msg-btn a {
+float: right;
+border-radius: 3px;
+padding: 4px 5px;
+color: #fff;
+cursor: pointer;
+text-decoration: none;
+border: 1px solid;
+border-color: #475d91 #3c5389 #3a5186;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+}

@@ -1,0 +1,145 @@
+.navbar-control{
+    display:none;
+    font-size:1.5em;
+    color:white;
+    cursor:pointer;
+    margin-right:1.5em;
+}
+nav{
+    width:100%;
+    background:#2980b9;
+    font-weight:bold;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+nav ul{
+    padding:0;
+    margin:0 auto;
+    float:right;
+    margin-right:120px;
+}
+nav ul li{
+    display:inline;
+}
+.clearfix:before,.clearfix:after{
+    content:" ";
+    display:table;
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    *zoom:1;
+}
+nav a{
+    color: #fff;
+    width:100px;
+    display:inline-block;
+    text-align:center;
+    text-decoration: none;
+    line-height:52px;
+}
+.brand{
+    margin-left:4%;
+    font-weight: bold;
+    font-size: 1.2em;
+    color:white;
+    width:150px;
+}
+
+@media screen and (max-width:650px){
+    nav{
+        width:100%;
+        height:auto;
+    }
+    nav ul{
+        background: #2bc0d8;
+        width:100%;
+        display: block;
+        height: auto;
+        float:left;
+        text-align:left;
+    }
+    nav li{
+        position: relative;
+        float: left;
+        width: 50%;
+    }
+    nav li a{
+        width: 100%;
+        text-indent: 25px;
+    }
+}            
+@media screen and (max-width:480px){
+    .navbar-control{
+        display:block;
+        float:right;
+        margin-right:1.5em;
+    }
+    nav ul{
+        background: #2bc0d8;
+        display: none;
+        height: auto;
+    }
+    nav ul li{
+        text-align:left;
+        width:100%;
+    }
+    li a:hover{
+        text-decoration:none;
+        border-bottom:1px solid #900;
+    }
+    .navbar-control:after{
+        content:"";   
+    }
+    .dropdown{
+        display:none;
+    }
+    .sidebar-nav ul{
+        display:inline-block;
+    }
+    .sidebar-nav ul li{
+        float:left;
+        margin:none;
+        margin-left:10px;
+    }
+    .sidebar-nav li a{
+        text-decoration:none;
+    }
+}
+.dropdown 
+{
+color: #555;
+margin: 3px -22px 0 0;
+width: 143px;
+position: relative;
+height: 17px;
+text-align:left;
+}
+.submenu
+{
+background: #fff;
+position: absolute;
+top: 20px;
+left: -20px;
+z-index: 100;
+width: 135px;
+display: none;
+margin-left: 10px;
+padding: 40px 0 5px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+height:auto;
+}
+.dropdown li a
+{
+color: #fff;
+display: block;
+font-family: arial;
+font-weight: bold;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}

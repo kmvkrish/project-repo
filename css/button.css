@@ -1,0 +1,29 @@
+.pin{
+	color: #900;
+	font-weight: bold;
+	transition:linear 0.7s background;
+}
+.flat{
+	color: #fff;
+	background-color: #3498db;
+	text-shadow: -1px 1px #417cb8;
+	border: none;
+    padding:5px 15px;
+}
+.flat:hover,
+.flat.hover {
+	background-color: #2980b9;
+	text-shadow: -1px 1px #27496d;
+}
+.flat:active,
+.flat.active {
+	background-color: #27496d;
+	text-shadow: -1px 1px #193047;
+}
+input.off{
+	border:none;
+	background: none;
+	color: white;
+	font-size:18px;
+	cursor: pointer;
+}

@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{SCRIPT_NAME} !-d
+RewriteCond %{SCRIPT_NAME} !-f
+RewriteCond %{SCRIPT_NAME} !-l
+
+
+RewriteRule ^(.*)$ repo.php?title=$1 [L,NC]
